@@ -36,3 +36,13 @@ const F = C * 9 / 5 + 32;
 
 alert('Temperatuur Farnheiti skaalal: ' + F);
 */
+
+// Tingimuslaused
+
+const color = prompt('Mis värvi on foori tuli?');
+
+if (color === 'roheline') {
+  alert('Võid üle tee minna');
+} else {
+  alert('Pead veel ootama');
+}
