@@ -33,8 +33,4 @@
 
 // alert(password == 123);
 
-a = 1;
-b = 2;
-c = a + b;
-a = 10;
 console.log(c);
