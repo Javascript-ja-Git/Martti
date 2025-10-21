@@ -38,11 +38,73 @@ alert('Temperatuur Farnheiti skaalal: ' + F);
 */
 
 // Tingimuslaused
-
+/*
 const color = prompt('Mis värvi on foori tuli?');
 
-if (color === 'roheline') {
+if (color=== 'roheline') {
   alert('Võid üle tee minna');
 } else {
   alert('Pead veel ootama');
+} */
+/*
+if (color === 'roheline') {
+  alert('Võid edasi sõita');
+} else if (color === 'kollane') {
+  alert('Pead veel tükk aega ootama');
+} else if (color === 'punane') {
+  alert('Oota veel pisut');
+} else {
+  alert('Sellist värvi ei tohiks fooris olla');
 }
+*/
+
+// Parooli kontrollimine
+
+/*
+const password = prompt('Palun sisesta parool');
+
+const existingPassword = 'admin123';
+
+if (password !== existingPassword) {
+  alert('Vale parool');
+} else {
+  alert('Tere tulemast');
+}
+ */
+
+// Vanuse kontroll
+/*
+const age = prompt('Sisesta oma vanus');
+
+const ageLimit = 18;
+
+if (age < ageLimit) {
+  alert('Oled alaealine');
+} else {
+  alert('Oled täisealine');
+} */
+
+/* const age = Number(prompt('Sisesta oma vanus'));
+
+alert(typeof age);
+ */
+
+// Kalkulaator
+/* 
+const number1 = Number(prompt('Sisesta esimene arv'));
+const number2 = Number(prompt('Sisesta teine arv'));
+
+const operator = prompt('Millist tehet soovid teha? (+, -, /, *)');
+
+if (operator === '+') {
+  alert(number1 + number2);
+} else if (operator === '-') {
+  alert(number1 - number2);
+} else if (operator === '*') {
+  alert(number1 * number2);
+} else if (operator === '/') {
+  alert(number1 / number2);
+} else {
+  alert('Seda funktsiooni kalkulaator hetkel veel ei toeta');
+}
+ */
