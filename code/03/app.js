@@ -63,3 +63,63 @@ if (player1 === player2) {
   alert('Mängija 2 võitis');
 }
  */
+
+// Funktsioonid
+
+/* function add(a, b) {
+  const sum = a + b;
+  return sum;
+}
+
+// const result = add(2, 3);
+console.log(add(2, 3));
+console.log(add(5, 3));
+console.log(add(200, 3)); */
+
+
+/* function greeting(name) {
+  const message = 'Tere, ' + name;
+  return message;
+} */
+
+// console.log(greeting('Martti')); // -> 'Tere, Martti'
+// Küsi kasutajalt nimi ja kasutades funktsiooni, kuva tervitus kasutajale
+
+/* const username = prompt('Sisesta oma nimi');
+const message = greeting(username);
+alert(message);
+ */
+
+/* function triangleArea(base, height) {
+  if (base <= 0) {
+    return 'Sellist kolmnurka ei eksisteeri';
+  } else if (height <= 0) {
+    return 'Sellist kolmnurka ei eksisteeri';
+  }
+  const area = (base * height) / 2;
+  return area;
+} */
+
+/* function triangleArea(base, height) {
+  if (base <= 0 || height <= 0) {
+    return 'Sellist kolmnurka ei eksisteeri';
+  }
+  const area = (base * height) / 2;
+  return area;
+}
+
+console.log(triangleArea(5, 10));
+console.log(triangleArea(8, 4));
+console.log(triangleArea(-8, 4));
+console.log(triangleArea(8, -4));
+ */
+
+function greeting(name) {
+  const message = 'Tere, ' + name;
+  console.log(message);
+  return;
+}
+
+const result = greeting('Martti');
+
+console.log(result);
