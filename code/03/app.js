@@ -114,7 +114,7 @@ console.log(triangleArea(-8, 4));
 console.log(triangleArea(8, -4));
  */
 
-function greeting(name) {
+/* function greeting(name) {
   const message = 'Tere, ' + name;
   console.log(message);
   return;
@@ -123,3 +123,40 @@ function greeting(name) {
 const result = greeting('Martti');
 
 console.log(result);
+ */
+
+// --- Neljanda loengu algus
+
+/* for (let i = 0; i < 10; i = i + 2) {
+  console.log(i);
+} */
+
+/* let i = 0;
+
+while (i < 10) {
+  i = i + 2;
+  console.log(i);
+} */
+
+/* let i = 0;
+
+do {
+  console.log(i);
+  i = i + 2;
+} while (i < 10); */
+
+function divide(a, b) {
+  if (b === 0) {
+    return 'Nulliga ei saa jagada';
+  }
+  const result = a / b;
+  return result;
+}
+
+// const result = divide(4, 2);
+
+console.log(divide(4, 2));
+console.log(divide(4, 0));
+console.log(divide(10, 0));
+console.log(divide(4, 3));
+console.log(divide(823434, 3434));
