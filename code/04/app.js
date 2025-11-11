@@ -81,7 +81,7 @@ const randomNumber = Math.ceil(Math.random() * 4) - 1;
 console.log(sales[randomNumber]); */
 
 // Funktsioon, mis tagastab arvud vahemikus 1 - 6
-
+/* 
 function dice(number) {
   const randomNumber = Math.ceil(Math.random() * number);
   return randomNumber;
@@ -95,4 +95,26 @@ const names = ['Jaan', 'Juta', 'Kalle', 'Malle', 'Juhan', 'Tiina'];
 
 const randomNumber = dice(names.length);
 
-console.log(names[randomNumber - 1]);
+console.log(names[randomNumber - 1]); */
+
+/* const names = ['Mati', 'Kati', 'Kalle', 'Malle'];
+
+for (let i = 0; i < names.length; i++) {
+  console.log(names[i]);
+}
+
+ */
+
+function logElements(array) {
+  for (let i = 0; i < array.length; i++) {
+    console.log(array[i]);
+  }
+  return array.length;
+}
+
+const names = ['Mati', 'Kati', 'Kalle', 'Malle'];
+const numbers = [1, 2, 5, 7, 9, 0];
+
+logElements(names);
+const result = logElements(numbers);
+console.log(result);
