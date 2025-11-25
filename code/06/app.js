@@ -81,7 +81,7 @@ for (let i = 0; i < tvs.length; i++) {
   pages: 30,
   isRead: true,
 } */
-
+/* 
 const books = [
   { id: 1, title: 'Rumal päike', author: 'Ülle Raavel', pages: 30, isRead: true },
   { id: 2, title: 'Kadunud mets', author: 'Jaan Tamm', pages: 145, isRead: false },
@@ -123,3 +123,33 @@ for (let i = 0; i < books.length; i++) {
 }
 
 console.log('Loetud lehekülgi kokku:', sumRead)
+ */
+
+function changeTitle() {
+  let text = document.getElementById('text-for-title').value.trim();
+  if (text === '') {
+    text = 'Kuues loeng';
+  }
+  const color = document.getElementById('color-picker').value;
+  document.getElementById('title').style.color = color;
+  document.getElementById('title').innerHTML = text;
+}
+
+function changeSubTitle() {
+  let text = document.getElementById('text-for-sub-title').value;
+  if (text === '') {
+    text = 'Juhuuu';
+  }
+  document.getElementById('sub-title').innerHTML = text;
+}
+
+function login() {
+  const pin = document.getElementById('pin').value;
+  if (pin === '1234') {
+    document.getElementById('status').innerHTML = 'Oled sisse logitud';
+    document.getElementById('status').style.color = 'green';
+  } else {
+    document.getElementById('status').innerHTML = 'Ligipääs puudub';
+    document.getElementById('status').style.color = 'red';
+  }
+}
