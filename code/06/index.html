@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="title" style="color: crimson">Kuues loeng</h1>
+    <h2 id="sub-title">Teine pealkiri</h2>
+    <input type="color" id="color-picker" />
+    <br />
+    <input type="text" id="text-for-title" placeholder="Esimene pealkiri" />
+    <br />
+
+    <input
+      oninput="changeSubTitle()"
+      type="text"
+      id="text-for-sub-title"
+      placeholder="Teine pealkiri"
+    />
+    <br />
+    <button onclick="changeTitle()">Muuda esimest pealkirja</button>
+    <br />
+    <button onclick="changeSubTitle()">Muuda teist pealkirja</button>
+
+    <hr />
+    <h2>Sisselogimine</h2>
+    <h3 id="status">Staatus</h3>
+
+    <input type="password" id="pin" />
+    <br />
+    <button onclick="login()">Logi sisse</button>
+
+    <script src="app.js"></script>
+  </body>
+</html>
